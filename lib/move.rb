@@ -13,8 +13,15 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
+<<<<<<< HEAD
 def move(board, index="0", current_player = "X")
   board[index] = current_player
+=======
+def move(board, index="1", value ="X")
+  new_index = input_to_index(index)
+  board[new_index] = value
+  move(board) = move(board,"1","X")
+>>>>>>> dbb5f2c2490ad37f085259b3b7fff4b8425ac42d
 end
 
 
